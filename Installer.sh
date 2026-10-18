@@ -21,4 +21,7 @@ else
     echo "Folder already exists. Skipping creation."
 fi
 
-echo "Making 
+echo "Making Icon Folder"
+mkdir -p $HOME/.local/share/icons/MaterialUI
+echo "done"
+
