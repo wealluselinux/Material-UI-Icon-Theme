@@ -48,7 +48,7 @@ Open your terminal and run the following command to download the theme repositor
 
 ```bash
 cd ~
-git clone 
+git clone https://github.com/wealluselinux/Material-UI-Icon-Theme
 ```
 *(Be sure to replace `YOUR-USERNAME` with your actual GitHub username or repository link).*
 
@@ -56,10 +56,10 @@ git clone
 Navigate into the cloned directory, grant execute permissions to the installer, and run it:
 
 ```bash
-git clone https://github.com/wealluselinux/Material-UI-Icon-Theme
+
 cd ~/Material-UI-Icon-Theme
 chmod +x installer.sh
-./installer.sh
+./Installer.sh
 ```
 
 ### Step 3: Apply the Theme
