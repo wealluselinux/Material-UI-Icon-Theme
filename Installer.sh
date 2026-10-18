@@ -24,4 +24,6 @@ fi
 echo "Making Icon Folder"
 mkdir -p $HOME/.local/share/icons/MaterialUI
 echo "done"
-
+echo "Building theme"
+cp -r $HOME/Material-UI-Icon-Theme/index.theme  $HOME/.local/share/icons/MaterialUI
+mkdir -p $HOME/.local/share/icons/MaterialUI/
